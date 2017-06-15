@@ -1,0 +1,166 @@
+<!--
+This file was automatically generated from README.md on Thu Jun 15 2017 14:12:16 GMT-0700 (PDT). If you need to make changes, edit README.md directly instead of this file.
+-->
+
+<!DOCTYPE html><html>
+<head><link rel="stylesheet" href="https://mozillathimblelivepreview.net/bramble/production/dist/thirdparty/github-markdown.css">
+<style>
+  .markdown-body {
+    min-width: 200px;
+    max-width: 790px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+</style></head>
+<body><article class="markdown-body">
+<h1 id="ability-tools-for-thimble">Ability Tools for Thimble</h1>
+<p>Create interactive accessible web pages quickly and easily.</p>
+<p>This document will help you make your web page and help you read it aloud
+on your computer.</p>
+<h2 id="summary">Summary</h2>
+<ul>
+<li>Click <strong>Remix</strong></li>
+<li>Check out the formatting of the <strong>white</strong> text in the <strong>Editor</strong> pane
+and how it relates to the <strong>Preview</strong> pane on the right of the screen.</li>
+<li>Try editing the text in the <strong>Editor</strong> pane.</li>
+<li>Need help? Read more about <a href="http://commonmark.org/help/">CommonMark</a>.</li>
+<li>Click the <strong>Refresh</strong> button at the top of the preview pane.</li>
+<li>When you are finished editing, create a new title by editing the
+<strong>white</strong> text between the <strong>green</strong> &#60;<code>title</code>&#62; tags near the top
+of the editor pane.</li>
+<li>Click <strong>Publish</strong>.</li>
+<li>When you have published the document, you can check out the published
+document by clicking the link under <strong>Here&#39;s a link you can share</strong>.</li>
+</ul>
+<h2 id="about-the-new-document">About the new document</h2>
+<ul>
+<li>Get the computer to read the notes of a page aloud by clicking the
+speech balloon at the bottom of the window.</li>
+<li>Access the page with a mobile device by scanning the square 2D code
+image with a mobile scanner application like 
+<a href="https://www.scan.me/">Scan</a> or 
+<a href="https://play.google.com/store/apps/details?id=com.google.zxing.client.android">Zxing</a>.</li>
+<li>Remix your new page as you like. Experiment with styles and images.</li>
+</ul>
+<h2 id="teacher-notes">Teacher notes</h2>
+<h3 id="quick-start">Quick start</h3>
+<ul>
+<li>Start at the <a href="https://thimbleprojects.org/jimholgate/286916/">project
+page</a>.</li>
+<li>Click <strong>Remix</strong>.</li>
+<li>Edit the CommonMark text between the 
+<code>&lt;pre id=&quot;commonmark&quot; class=&quot;at-code&quot;&gt;</code> and
+<code>&lt;/pre&gt;</code> tags. If you make a mistake, click <strong>Undo</strong>.</li>
+<li>Click <strong>Publish</strong>.</li>
+<li>Your can share your page with students as an
+assignment sheet, or get them to use it as a 
+template to remix.</li>
+<li>Print or project the <strong>QR Code</strong> that appears
+at the bottom of the page to share on mobile
+devices.</li>
+<li>To collect student work or track their
+learning portfolios, scan the <strong>QR Codes</strong>
+at the bottom of their pages or have them
+send you the addresses of their remixes.</li>
+<li>Students can delete their projects at any
+time, but not remixes of their projects. Therefore, you may want to periodically
+clone students&#39; pages by clicking <strong>Remix</strong>
+or by downloading zip archives of their projects
+so that you have an on-going record of their work
+for formative evaluation.</li>
+</ul>
+<h3 id="about">About</h3>
+<p>This is designed as an <a href="http://galileo.org/rubric.pdf">Discipline-Based Inquiry Study</a> for <a href="https://thimble.mozilla.org/en-US/features"><em>Mozilla</em> <em>Thimble</em></a>, a free platform that helps 
+students learn about web site design and programming.  The project uses a 2D code,
+also called a <em>QR Code</em>, to make it easy to share and collaboratively edit pages on mobile devices.
+As well, if you use the page with learners who have difficulty reading
+they can take advantage of a speech synthesis button at the bottom of the
+page on most modern browsers like <em>Chrome</em>, <em>Chromium</em>, <em>Edge</em> (Windows 10),
+<em>FireFox</em>, <em>Opera</em> and <em>Safari</em> (MacOS).</p>
+<h3 id="privacy">Privacy</h3>
+<p>Normally users set up an account using their e-mail address and a new
+password.  If students for one reason or another cannot obtain an
+e-mail address, you could use a class e-mail address and set up each
+student with a project that uses the class account and an automatically
+generated sequence number.  For example:</p>
+<pre><code>https://thimbleprojects.org/correcthorsebatterystaple/286460/
+</code></pre><p>Anyone with the <em><a href="https://xkcd.com/936/">exact URL</a></em> can read and remix the content, but they cannot
+identify the student unless there is particular  content
+in the project that allows it.  Be aware of privacy
+policies of your institution and the laws that relate to
+students in your care.  Thimble is open source, so you can host it on a local network.</p>
+<h3 id="publishing">Publishing</h3>
+<p>You can write <a href="http://commonmark.org">CommonMark</a> plain text on almost any device, then
+paste it into the appropriate section onto a project&#39;s index page. 
+Many blogging platforms allow you to use CommonMark text to post 
+messages. You can convert CommonMark to HTML <a href="http://spec.commonmark.org/dingus/">on-line</a> or by using
+an off-line text conversion program like <a href="http://pandoc.org">pandoc</a>. </p>
+<p>You can publish CommonMark files directly in Thimble. Edit CommonMark
+text using a plain text editor like bluefish, gedit, notepad or xcode.
+Rename the file with an <code>.md</code> extension. Go to your Thimble project page,
+click <strong>New File</strong>, then upload the md file.  Thimble automatically
+creates an HTML file with the same file name.  You can edit the CommonMark
+file in the editor and link to the HTML document just like on any other page.</p>
+<p>If you prefer not to embed a QR Code image and speech balloon, you can 
+omit them by changing the line that reads</p>
+<pre><code>&lt;body onload=&quot;codeit(&#39;commonmark&#39;,&#39;at-commonmark&#39;); InitSpeechButton(); qrurlimg(&#39;qrimg&#39;)&quot;&gt;
+</code></pre><p>to</p>
+<pre><code>&lt;body onload=&quot;codeit(&#39;commonmark&#39;,&#39;at-commonmark&#39;)&quot;&gt;
+</code></pre><p>and deleting the following section from the page:</p>
+<pre><code>&lt;button onclick=&quot;ReadSelectedText(&#39;at-commonmark&#39;)&quot; title=&quot;Read the selection&quot; class=&quot;speech-button&quot; id=&quot;speech-play-button&quot;&gt;
+&lt;svg
+xmlns:dc=&quot;http://purl.org/dc/elements/1.1/&quot;
+xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;
+xmlns:svg=&quot;http://www.w3.org/2000/svg&quot;
+xmlns=&quot;http://www.w3.org/2000/svg&quot;
+version=&quot;1.1&quot;
+width=&quot;26&quot;
+height=&quot;26&quot;
+id=&quot;svg2&quot;
+style=&quot;font-size:12px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;font-family:Dialog&quot;&gt;
+&lt;defs id=&quot;genericDefs&quot; /&gt;
+&lt;g transform=&quot;matrix(0.09813386,0,0,0.13449553,-1.2713641,-14.85863)&quot; id=&quot;g5&quot;
+style=&quot;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1&quot;&gt;
+&lt;g id=&quot;g7&quot;
+style=&quot;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1&quot;&gt;
+&lt;path d=&quot;m 273.7969,190.9688 q 0,24.6093 -27.1407,42.8906 -20.25,13.7812 -49.6406,20.8125 -22.2187,5.3437 -51.1875,5.3437 -21.5156,0 -41.4843,-4.5 -4.2188,16.1719 -23.4844,25.1719 Q 64.9688,288 45.8438,288 q -18.5626,0 -31.6407,-17.7188 43.3125,-1.8281 41.9063,-32.7656 -33.3282,-21.375 -33.3282,-46.6875 0,-21.7969 20.3907,-38.1093 38.6719,-30.7969 105.0469,-30.7969 59.0624,0 98.1562,26.0156 27.4219,18.2813 27.4219,43.0313 z m -6.8907,0 q 0,-24.1876 -30.7968,-41.7657 -23.7656,-13.6406 -52.7344,-17.7187 -18.7031,-2.6719 -35.2969,-2.6719 -66.375,0 -103.7812,31.6406 -15.0469,12.6563 -15.0469,30.375 0,24.0469 28.9688,40.2188 1.5468,0.5625 3.9374,2.25 0.8438,1.125 0.8438,4.6406 0,30.375 -35.0156,37.6875 7.875,5.9062 17.7187,5.9062 18.7031,0 33.8907,-7.7343 18.7031,-9.5625 18.9843,-26.4375 22.6407,5.7656 49.2188,5.7656 61.4531,0 98.7187,-27.1406 20.3906,-14.9063 20.3906,-35.0156 z&quot; id=&quot;path9&quot; style=&quot;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1&quot; /&gt;
+&lt;/g&gt;
+&lt;/g&gt;
+&lt;/svg&gt;
+&lt;/button&gt;
+&lt;div id=&quot;qrimg&quot;&gt;&lt;/div&gt;
+</code></pre><h3 id="readability">Readability</h3>
+<ul>
+<li>The <a href="https://readable.io/text/">Readability</a> score for
+<strong>index.html</strong> instructions averages <strong>4.1</strong>.</li>
+<li>The <a href="https://readable.io/text/">Readability</a> score for
+<strong>tutorial.html</strong> instructions averages <strong>4.8</strong>.</li>
+</ul>
+<h3 id="known-issues">Known issues</h3>
+<p>CommonMark, used in this application, is a strictly defined language based on MarkDown. CommonMark adds some features, and omits other features of MarkDown. This normally does not make a difference, but it could render tables, code, MathML and other advanced features differently than the default MarkDown converter for Thimble does.</p>
+<p>XHTML, also used in this application, is a strictly typed version of HTML.  XHTML shows an error message in most browsers if there is incorrect code, rather than trying to guess what the author meant.  Therefore the output may not display correctly if there are coding errors even if the errors are minor.  The greater than and less than symbols behave differently in HTML and XHTML - in XHTML they must always be encoded as <code>&amp;#60;</code> and <code>&amp;#62;</code>, even in <code>pre</code> strings.</p>
+<h3 id="multilingual-speech">Multilingual speech</h3>
+<p>If you write in French or another language that uses accents or extended characters, and you are using Windows Notepad, make sure you save the file encoded as text encoded utf-8. Most modern mobile and Posix platforms use utf-8 encoded text exclusively.  </p>
+<p>To change the language of the speech synthesiser to French, change the tags in the source from <code>&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;en-CA&quot; xml:lang=&quot;en-CA&quot;&gt;</code> to <code>&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;fr&quot; xml:lang=&quot;fr&quot;&gt;</code>.  On some computers, you may need to set the language and region or install a new voice or language package to get the computer to speak in French.</p>
+<h3 id="related-projects">Related projects</h3>
+<ul>
+<li><a href="http://appinventor.mit.edu/explore/">App Inventor</a></li>
+<li><a href="https://codepen.io/pen/">CodePen</a></li>
+<li><a href="http://commonmark.org">CommonMark</a></li>
+<li><a href="https://daringfireball.net/projects/markdown/dingus">DaringFireball</a></li>
+<li><a href="https://pages.github.com/">GitHub Pages</a></li>
+<li><a href="https://jsfiddle.net/api/mdn/">JSFiddle</a></li>
+<li><a href="https://scratch.mit.edu/">Scratch</a></li>
+<li><a href="https://github.com/mozilla/thimble.mozilla.org/">Thimble Source Code</a></li>
+<li><a href="http://www.zenpen.io/">ZenPen</a></li>
+</ul>
+<h3 id="contribute">Contribute</h3>
+<p>Have you fixed a bug? Added a feature? Clarified instructions?</p>
+<p>Fork, Clone and Remix it on <a href="https://github.com/jimholgate/">GitHub</a>; then request a pull.</p>
+<h3 id="note">Note</h3>
+<p>The word “QR Code” is registered trademark of <a href="http://www.denso-wave.com/en/adcd/">DENSO WAVE
+INCORPORATED</a> in the following countries: Japan, United States of
+America, Australia and Europe.  Other program names identified with
+<em>emphasized</em> text are trademarks of their respective organizations. </p>
+
+</article></body></html>
