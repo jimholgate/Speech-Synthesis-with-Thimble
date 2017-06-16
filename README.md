@@ -12,7 +12,7 @@ on your computer.
 + Click **Remix**
 + Check out the formatting of the text in the **Editor** pane
   and how it relates to the **Preview** pane on the right of the screen.
-+ Edit the CommonMark text between the
++ Edit the CommonMark text between the 
   `<pre id="commonmark" class="at-code">` and
   `</pre>` tags. If you make a mistake, click **Undo**.
 + Need help? Read more about [CommonMark](http://commonmark.org/help/).
@@ -28,8 +28,8 @@ on your computer.
 + Get the computer to read the notes of a page aloud by clicking the
   speech balloon at the bottom of the window.
 + Access the page with a mobile device by scanning the square 2D code
-  image with a mobile scanner application like
-[Scan](https://www.scan.me/) or
+  image with a mobile scanner application like 
+[Scan](https://www.scan.me/) or 
 [Zxing](https://play.google.com/store/apps/details?id=com.google.zxing.client.android).
 + Remix your new page as you like. Experiment with styles and images.
 
@@ -40,12 +40,12 @@ on your computer.
 + Start at the [project
   page](https://thimbleprojects.org/jimholgate/286916/).
 + Click **Remix**.
-+ Edit the CommonMark text between the
++ Edit the CommonMark text between the 
 `<pre id="commonmark" class="at-code">` and
 `</pre>` tags. If you make a mistake, click **Undo**.
 + Click **Publish**.
 + Your can share your page with students as an
-  assignment sheet, or get them to use it as a
+  assignment sheet, or get them to use it as a 
   template to remix.
 + Print or project the **QR Code** that appears
   at the bottom of the page to share on mobile
@@ -57,12 +57,12 @@ on your computer.
 + Students can delete their projects at any
   time, but not remixes of their projects. Therefore, you may want to periodically
   clone students' pages by clicking **Remix**
-  so that you have an on-going record of
+  so that you have an on-going record
   for formative evaluation.
 
 ### About ###
 
-This is designed as an [Discipline-Based Inquiry Study][1] for [*Mozilla* *Thimble*][2], a free platform that helps
+This is designed as a [Discipline-Based Inquiry Study][1] for [*Mozilla* *Thimble*][2], a free platform that helps 
 students learn about web site design and programming.  The project uses a 2D code,
 also called a *QR Code*, to make it easy to share and collaboratively edit pages on mobile devices.
 As well, if you use the page with learners who have difficulty reading
@@ -90,10 +90,10 @@ students in your care.  Thimble is open source, so you can host it on a local ne
 ### Publishing ###
 
 You can write [CommonMark][3] plain text on almost any device, then
-paste it into the appropriate section onto a project's index page.
-Many blogging platforms allow you to use CommonMark text to post
+paste it into the appropriate section onto a project's index page. 
+Many blogging platforms allow you to use CommonMark text to post 
 messages. You can convert CommonMark to HTML [on-line][4] or by using
-an off-line text conversion program like [pandoc][5].
+an off-line text conversion program like [pandoc][5]. 
 
 You can publish CommonMark files directly in Thimble. Edit CommonMark
 text using a plain text editor like bluefish, gedit, notepad or xcode.
@@ -102,7 +102,7 @@ click **New File**, then upload the md file.  Thimble automatically
 creates an HTML file with the same file name.  You can edit the CommonMark
 file in the editor and link to the HTML document just like on any other page.
 
-If you prefer not to embed a QR Code image and speech balloon, you can
+If you prefer not to embed a QR Code image and speech balloon, you can 
 omit them by changing the line that reads
 ```
 <body onload="codeit('commonmark','at-commonmark'); InitSpeechButton(); qrurlimg('qrimg')">
@@ -155,7 +155,7 @@ XHTML, also used in this application, is a strictly typed version of HTML.  XHTM
 
 ### Multilingual speech
 
-If you write in French or another language that uses accents or extended characters, and you are using Windows Notepad, make sure you save the file encoded as text encoded utf-8. Most modern mobile and Posix platforms use utf-8 encoded text exclusively.
+If you write in French or another language that uses accents or extended characters, and you are using Windows Notepad, make sure you save the file encoded as text encoded utf-8. Most modern mobile and Posix platforms use utf-8 encoded text exclusively.  
 
 To change the language of the speech synthesiser to French, change the tags in the source from `<html xmlns="http://www.w3.org/1999/xhtml" lang="en-CA" xml:lang="en-CA">` to `<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">`.  On some computers, you may need to set the language and region or install a new voice or language package to get the computer to speak in French.
 
@@ -182,7 +182,7 @@ Fork, Clone and Remix it on [GitHub](https://github.com/jimholgate/); then reque
 The word “QR Code” is registered trademark of [DENSO WAVE
 INCORPORATED][15] in the following countries: Japan, United States of
 America, Australia and Europe.  Other program names identified with
-*emphasized* text are trademarks of their respective organizations.
+*emphasized* text are trademarks of their respective organizations. 
 
 
 [1]: http://galileo.org/rubric.pdf
