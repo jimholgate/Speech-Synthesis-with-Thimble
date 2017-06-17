@@ -1,4 +1,4 @@
-﻿# Do not index page on search engines
+﻿# Humans only!
 # See [robotstxt.org](http://www.robotstxt.org/orig.html)
 User-agent: *
 Disallow: /
