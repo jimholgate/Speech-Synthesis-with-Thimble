@@ -1,0 +1,4 @@
+﻿# Do not index page on search engines
+# See [robotstxt.org](http://www.robotstxt.org/orig.html)
+User-agent: *
+Disallow: /
