@@ -1,6 +1,6 @@
 /* commonmark-local.js
  * ===================
- * 
+ *
  * Common functions for a [CommonMark][1] text to xhtml converter for the
  * [Ability Tools][2] ePub project.
  *
@@ -50,7 +50,7 @@ function ShowSpeechButton() {
 
 
 function ReadSelectedText(id1) {
-/* 
+/*
 The Maximum safe length on Chrome for Linux is roughly 290 characters in English. We chunk the string into an array in
 `speak(a)` to ensure that text chunks are under the limit.
 */
@@ -128,11 +128,7 @@ function GetWebEngine() {
 
 function sayitem(a) {
   var b = document.getElementById(a).value;
-  if ("WINDOWS"==GetOS()){
-    b = x1(b),speak(b);}
-  else {
     b = strip(b),speak(b);
-    }
   return !1;
 };
 
